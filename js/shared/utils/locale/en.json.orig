@@ -1,0 +1,142 @@
+{
+	"appName": "Fanathon",
+	"motto": "Fantasy TV Invite, Vote,LWatch and Win",
+	"signinToContinue": "Sign in\nto continue",
+	"welcomeTitle": "Welcome back",
+	"signIn": "Sign in",
+	"signUp": "Sign up",
+	"signInTitle": "Sign in with your account",
+	"signUpTitle": "Create Account",
+	"mottoSignUp": "Enjoy Fantasy TV, Invite, VotL, Watch & Win",
+	"email": "Email",
+	"password": "Password",
+	"forgotPassword": "Forgot Password ?",
+	"somethingWrong": "Something wrong, please try again",
+	"error": "Error",
+	"validEmailIncorrect": "Email is invalid format",
+	"validPasswordIncorrect": "Password is not empty",
+	"validFieldEmpty": "Field must not be empty",
+	"success": "Success",
+	"loginSuccess": "Login successfully",
+	"loginFail": "Login fail",
+	"signUpSuccess": "Sign up successfully",
+	"ok": "OK",
+	"send": "Send",
+	"termAndCondition": "By signing up you agree to our \nTerms and Conditions & Privacy Policy",
+	"forceTermAndCondition": "You have to agree our Terms and Conditions & Privacy Policy",
+	"forgotPasswordTitle": "Forgot Password",
+	"yourPasswordHasChanged": "Your password has changed",
+	"resetPasswordSuccessfully": "An email has been sent to your mail box, please check again",
+	"mottoForgotPassword": "Please enter your email to request a password reset",
+	"no_data": "No data available for now",
+	"emptyData": "Empty data",
+	"empty": "[Empty]",
+	"save": "Save",
+	"google": {
+		"notSupport": "Google Play Services are not available",
+		"googleSignInSuspend": "Google Signin Error"
+	},
+	"facebook": {
+		"errorFetchingData": "Error fetching data from facebook GraphRequest"
+	},
+	"resetPasswordViaEmail": {
+		"title": "Reset password",
+		"newPassword": "New PASSWORD",
+		"confirmPassword": "CONFIRM PASSWORD",
+		"doNotMatch": "Password and confirm password do not match"
+	},
+	"logout": {
+		"title": "Logout"
+	},
+	"home": {
+		"allEvent": "All Events",
+		"myLeagues": "My Leagues",
+		"leagues": "Leagues",
+		"welcome": "Welcome",
+		"upcommingEvent": "Upcoming events",
+		"createdLeague": "Created Leagues",
+		"joinedLeague": "Joined Leagues",
+		"event": "Event: "
+	},
+	"result": {
+		"results": "Results",
+		"myResult": "My result",
+		"leaderboard": "Leaderboard",
+		"event": "Event",
+		"allPlayers": "All players",
+		"rank": "Rank",
+		"points": "Points",
+		"totalPoints": "Total points",
+		"yourFriends": "Your friends"
+	},
+	"drawer": {
+		"home": "Home",
+		"leagues": "Leagues",
+		"leaguesCreation": "League Creation",
+		"results": "Results",
+		"notification": "Notifications",
+		"settings": "Settings",
+		"logout": "Log Out"
+	},
+	"notification": {
+		"title": "Notifications",
+		"clearAll": "Clear all"
+	},
+	"createLeague": {
+		"title": "Create League",
+		"leagueTitle": "League Title",
+		"selectEvent": "Select event",
+		"create": "Create",
+<<<<<<< Updated upstream
+=======
+		"thankyoL": "Thank you",
+>>>>>>> Stashed changes
+		"thankyou": "Thank you",
+		"yourLeagueCreated": "Your League have been created",
+		"invite": "Invite",
+		"share": "Share",
+		"shareContent": "Here is content for sharing...",
+		"shareLeague": "/leagues/{{leagueId}}/invite?invitedBy={{sharedBy}}",
+		"uploadImage": "Upload Image",
+		"playerInvite": "Players invite",
+		"playerInviteMotto": "Players can invite to other players",
+		"guestInvite": "Guests invite",
+		"guestInviteMotto": "Players can invite to guests",
+		"needToChooseStatus": "You need to choose status before creating",
+		"leagueSettings": "League settings"
+	},
+	"joinLeague": {
+		"successfully": "Successfully",
+		"joinSuccess": "You Joined the League"
+	},
+	"detailLeague": {
+		"title": "League",
+		"startTime": "Start Time & Date",
+		"detail": "Details",
+		"joinedLeague": "Joined League",
+		"join": "Join",
+		"timeUp": "Time's up",
+		"timeUpMotto": "Ballots are closed. Tune into watch...",
+		"submit": "Submit",
+		"itsTimeToSubmit": "know it's time to submit",
+		"thanks": "Thanks for your {{leagueName}} prediction"
+	},
+	"leagueSetting": {
+		"updateLeagueSuccess": "Update League success"
+	},
+	"detailEvent": {
+		"title": "Event",
+		"startTime": "Start Time & Date",
+		"detail": "Details",
+		"joinedLeague": "Joined League",
+		"join": "Join",
+		"publicLeague": "Public leagues"
+	},
+	"myProfile": {
+		"title": "My Profile",
+		"noLeague": "You have not yet joined any leagues. Please press the button below to get started",
+		"joinLeague": "Join Leagues",
+		"totalPoints": "Total Points",
+		"point": "0"
+	}
+}

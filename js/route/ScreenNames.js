@@ -1,0 +1,42 @@
+export const ScreenNames = {
+	SplashScreen: "SplashScreen",
+	LoginScreen: "LoginScreen",
+	ProfileScreen: "ProfileScreen",
+	HomeScreen: "HomeScreen",
+	MainTabScreen: "MainTabScreen",
+	SignUpScreen: "SignUpScreen",
+	ForgotPasswordScreen: "ForgotPasswordScreen",
+	ChangePasswordScreen: "ChangePasswordScreen",
+	UserProfileSettingScreen: "UserProfileSettingScreen",
+	MeScreen: "MeScreen",
+	OptionSignupScreen: "OptionSignupScreen",
+	PhoneOTPScreen: "PhoneOTPScreen",
+	ProfileEditScreen: "ProfileEditScreen",
+	MyBookingProfileScreen: "MyBookingProfileScreen",
+	MessageScreen: "MessageScreen",
+	Invitation: "Invitation",
+	Feedback:"Feedback", 
+	DescriptionEditScreen: "DescriptionEditScreen",
+	BabySittingRateScreen: "BabySittingRateScreen",
+	YearExpScreen: "YearExpScreen",
+	OptionPaymentVISA: "OptionPaymentVISA",
+	SpecialExpScreen: "SpecialExpScreen",
+	CertificatesScreen: "CertificatesScreen",
+	AvailableTimeScreen: "AvailableTimeScreen",
+	AddressScreen: "AddressScreen",
+	CreateJobScreen: "CreateJobScreen",
+	VideoScreen: "VideoScreen",
+	DetailJobScreen: "DetailJobScreen",
+	SitterListScreen: "SitterListScreen",
+	ChatScreen: "ChatScreen",
+
+	SitterDetailProfileScreen: "SitterDetailProfileScreen",
+	NotificationScreen: "NotificationScreen",
+	WalletScreen: "WalletScreen",
+	PaymentScreen: "PaymentScreen",
+	OptionPayment: "OptionPayment",
+};
+
+export default {
+	ScreenNames
+};

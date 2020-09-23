@@ -1,0 +1,144 @@
+{
+	"appName": "BabySitters",
+	"signinToContinue": "Sign in\nto continue",
+	"welcomeTitle": "Login",
+	"signIn": "Login",
+	"signUp": "Sign up Now!",
+	"askSignUp": "Don't have an account? ",
+	"signInTitle": "Sign in with your account",
+	"signUpTitle": "Create Account",
+	"userName": "Your Name",
+	"firstName": "First Name",
+	"lastName": "Last Name",
+	"address": "Address",
+	"emergencyContact": "Emergency contact",
+	"email": "Email",
+	"loading": "Loading...",
+	"phone": "Phone",
+	"phoneNumber": "Add phone number",
+	"phoneContact": "Phone emergency contact",
+	"cancel": "Cancel",
+	"authenTouchFaceID": "Biometric authentication",
+	"authenTouchFaceIDFailed":"Advanced biometric authentication failed",
+	"password": "Password",
+	"otp": "OTP",
+	"sendOtp": "Send OTP",
+	"reSendOtp": "Resend OTP",
+	"verifyOTP": "Verify OTP",
+	"forgotPassword": "Forgot Password? ",
+	"reset": "Reset",
+	"somethingWrong": "Something wrong, please try again later",
+	"error": "Something wrong, please try again later",
+	"prefix": "Prefix",
+	"warning": "Warning",
+	"validEmailIncorrect": "Email is invalid format",
+	"validPhoneIncorrect": "Phone is invalid format",
+	"validPasswordIncorrect": "Password is not empty",
+	"validFieldEmpty": "Fields must not be empty",
+	"success": "Success",
+	"emptyEmail": "This account does not have email. Please try another login type",
+	"loginSuccess": "Login successfully",
+	"loginFail": "Login fail",
+	"signUpSuccess": "Sign up successfully",
+	"ok": "OK",
+	"send": "Send",
+	"termAndCondition": "By signing up you agree to our \nTerms and Conditions & Privacy Policy",
+	"forceTermAndCondition": "You have to agree our Terms and Conditions & Privacy Policy",
+	"forgotPasswordTitle": "Change password",
+	"resetPassword": "Reset password",
+	"yourPasswordHasChanged": "Your password has changed",
+	"resetPasswordSuccessfully": "An email has been sent to your mail box, please check again",
+	"mottoForgotPassword": "Please enter your email to request a password reset",
+	"no_data": "No data available for now",
+	"emptyData": "Empty data",
+	"empty": "",
+	"save": "Save",
+	"directOpenSignup": "This user does not exist in our system. Please signup",
+	"invalidToken": "Token is invalid.",
+	"expiredToken": "Token is expired.",
+	"emailSigned": "Email Address already signed up, Please sign in!",
+	"duplicateEmail": "Email Address already in use!",
+	"createAcc": {
+		"title": "SignUp",
+		"passHigher8": "Password length must higher than 6 characters",
+		"userNameHigher6": "Your name length must higher than 6 characters",
+		"resendOtp": "Resend code",
+		"doesNotReceive": "Dont receive anything? ",
+		"askResend": "Do you want to resend OTP code?",
+		"skip": "Skip, I want to add phone later!"
+	},
+	"google": {
+		"notSupport": "Google Play Services are not available",
+		"googleSignInSuspend": "Google Signin Error"
+	},
+	"facebook": {
+		"errorFetchingData": "Error fetching data from facebook GraphRequest"
+	},
+	"resetPasswordViaEmail": {
+		"title": "Change password",
+		"newPassword": "New password",
+		"oldPassword": "Old password",
+		"confirmPassword": "Confirm password",
+		"doNotMatch": "Password and confirm password do not match",
+		"update": "Update"
+	},
+	"logout": {
+		"title": "Logout"
+	},
+	"userProfileSetting": {
+		"title": "Security Setting",
+		"touchID": "TouchID",
+		"faceID": "FaceID",
+		"notSupport": "Not supported",
+		"askEnableTouchID": "Do you want to enable TouchID for 2 steps authentication?",
+		"askEnableFaceID": "Do you want to enable FaceID for 2 steps authentication?",
+		"askDisableTouchID": "Do you want to disable TouchID for 2 steps authentication?",
+		"askDisableFaceID": "Do you want to disable FaceID for 2 steps authentication?",
+		"askTitle": "Info",
+		"updateSuccess": "Update security successfully"
+	},
+	"home": {
+		"title": "Home",
+		"welcome": "Welcome"
+	},
+	"message": {
+		"title": "Messages",
+		"no_data": "No message yet.",
+		"no_data_motto": "Willing to work? Add your interest, skill set and calendar time, finish your profile"
+	},
+	"drawer": {
+		"home": "Home",
+		"notification": "Notifications",
+		"settings": "Settings",
+		"logout": "Log Out"
+	},
+	"notification": {
+		"title": "Notifications",
+		"clearAll": "Clear all"
+	},
+	"myProfile": {
+		"title_tab": "User",
+		"title": "Me ",
+		"updateSuccess": "Update profile success",
+		"dateOfBirth": "DOB"
+	}, 
+	"me": {
+		"myProfile": "My profile",
+		"myBookingProfile": "My booking profile",
+		"updateMyProfile": "Update profile",
+		"myWallet": "Wallet",
+		"payment": "Payment",
+		"invitation": "Invitation",
+		"feedback": "Feedback",
+		"logoutAsk": "Do you want to log out?",
+		"version": "Version: ",
+		"edit": "Edit",
+		"save": "Save",
+	},
+	"optionsSignup": {
+		"title": "Signup options",
+		"motto": "BabySitters lets you find and book babysitters of people you know and trust",
+		"sitter": "Apply to jobs",
+		"parent": "Find a sitter"
+	}
+}
