@@ -6,10 +6,10 @@ export default class Tmp extends Component{
 
     render(){
         return(
-            <View>
+            <View style = {{alignItems: 'center', marginTop: 100}}>
 
 <Text>12312312</Text>   
-                <Text>{I18n.t("ok")}</Text>
+                <Text>{I18n.t("appName")}</Text>
                 <Text>12312312</Text>
             </View>
 
