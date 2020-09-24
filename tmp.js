@@ -1,18 +1,19 @@
 import React, {Component} from "react";
 import {View, Keyboard, Alert, TouchableOpacity, Text} from "react-native";
 import I18n from "./js/shared/utils/locale/i18n";
+import {PacmanIndicator} from "react-native-indicators";
+import BaseScreen from "./js/containers/BaseScreen";
+import store from "./js/store/configureStore";
 
-export default class Tmp extends Component{
+
+const Store = new store();
+export default class Tmp extends BaseScreen{
 
     render(){
         return(
-            <View style = {{alignItems: 'center', marginTop: 100}}>
+            <Provider store = {Store}>
 
-<Text>12312312</Text>   
-                <Text>{I18n.t("appName")}</Text>
-                <Text>12312312</Text>
-            </View>
-
+            </Provider>
         );
     }
 

@@ -197,23 +197,16 @@ export default class App extends Component {
 
   render() {
   	return (
-		  <View>
-
-<Text>test</Text>
-
-<Text>test</Text>
-			  <Text>test</Text>
-		  </View>
-  		// <Provider store={Store}>
-  		// 	<PaperProvider>
-  		// 		<AppContainer/>
-		// 		  <DropdownAlert
-  		// 			//   defaultContainer={{ padding: 8, paddingTop: StatusBar.currentHeight, flexDirection: 'row' }}
-  		// 			ref={ref => AlertHelper.setDropDown(ref)}
-  		// 			onClose={() => AlertHelper.invokeOnClose()}
-  		// 		/>
-  		// 	</PaperProvider>
-  		// </Provider>
+  		<Provider store={Store}>
+  			<PaperProvider>
+  				<AppContainer/>
+				  <DropdownAlert
+  					//   defaultContainer={{ padding: 8, paddingTop: StatusBar.currentHeight, flexDirection: 'row' }}
+  					ref={ref => AlertHelper.setDropDown(ref)}
+  					onClose={() => AlertHelper.invokeOnClose()}
+  				/>
+  			</PaperProvider>
+  		</Provider>
   	);
   }
 }
