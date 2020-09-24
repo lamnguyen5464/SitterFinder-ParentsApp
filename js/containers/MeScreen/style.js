@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
 		borderBottomLeftRadius: 60
 	},
 	welcomeTitle: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 28,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
 		marginTop: 11
 	},
 	signInTitle: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -75,7 +75,7 @@ export const styles = StyleSheet.create({
 		alignContent: "center"
 	},
 	buttonText: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 16,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -83,7 +83,7 @@ export const styles = StyleSheet.create({
 		color: colors.whiteWithOpacity
 	},
 	mottoText: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -92,7 +92,7 @@ export const styles = StyleSheet.create({
 		color: colors.textDefaultWithOpacity
 	},
 	leagueStyle: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 20,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -121,7 +121,7 @@ export const styles = StyleSheet.create({
 		borderRadius: 10
 	},
 	titleItem: {
-		fontFamily: fonts.family.avenir_book.regular,
+		// fontFamily: fonts.family.avenir_book.regular,
 		fontSize: 15,
 		fontWeight: "bold",
 		fontStyle: "normal",
@@ -134,7 +134,7 @@ export const styles = StyleSheet.create({
 		color: colors.black_title_league_joined
 	},
 	eventItem: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -143,7 +143,7 @@ export const styles = StyleSheet.create({
 		color: colors.yellow_event
 	},
 	eventDetailItem: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -152,7 +152,7 @@ export const styles = StyleSheet.create({
 		color: colors.yellow_event_title
 	},
 	descItem: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -204,7 +204,7 @@ export const styles = StyleSheet.create({
 		elevation: 4
 	},
 	title: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 22,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -264,7 +264,7 @@ export const styles = StyleSheet.create({
 		height: 90
 	},
 	name: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 26,
 		fontWeight: "bold",
 		fontStyle: "normal",
@@ -275,7 +275,7 @@ export const styles = StyleSheet.create({
 		color: colors.black
 	},
 	email: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 20,
 		textAlign: "center",
 		fontWeight: "normal",
@@ -318,7 +318,7 @@ export const styles = StyleSheet.create({
 		flexDirection: "row"
 	},
 	totalPoint: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 20,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -345,7 +345,7 @@ export const styles = StyleSheet.create({
 		alignItems: "flex-end",
 	},
 	point: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 40,
 		fontStyle: "normal",
 		letterSpacing: 0,
@@ -355,7 +355,7 @@ export const styles = StyleSheet.create({
 		marginEnd: Platform.OS === "ios" ? 22 : 30
 	},
 	myLeague: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 20,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -429,14 +429,14 @@ export const styles = StyleSheet.create({
 		elevation: 4,
 	},
 	itemUser: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 16,
 		letterSpacing: 0,
 		color: colors.black,
 		marginLeft: 15,
 	},
 	logout: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 16,
 		letterSpacing: 0,
 		color: colors.black,
@@ -461,7 +461,7 @@ export const styles = StyleSheet.create({
 		elevation: 4,
 	},
 	itemUserDisable: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 16,
 		letterSpacing: 0,
 		color: colors.black,
@@ -469,7 +469,7 @@ export const styles = StyleSheet.create({
 		opacity: 0.5
 	},
 	logout: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 16,
 		letterSpacing: 0,
 		color: colors.red,

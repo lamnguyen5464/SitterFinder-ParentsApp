@@ -85,7 +85,8 @@ class BaseScreen extends Component {
   renderBackButton = (color = colors.black) => {
   	return (
   		<View>
-  			<Ionicons name={"ios-arrow-round-back"} size={42} color={color}/>
+  			{/* <Ionicons name={"ios-arrow-round-back"} size={41} color={color}/> */}
+			  <Text>Back</Text>
   		</View>
   	);
   }

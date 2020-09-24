@@ -198,14 +198,14 @@ export default class App extends Component {
   render() {
   	return (
   		<Provider store={Store}>
-  			<PaperProvider>
+  			{/* <PaperProvider>
   				<AppContainer/>
 				  <DropdownAlert
   					//   defaultContainer={{ padding: 8, paddingTop: StatusBar.currentHeight, flexDirection: 'row' }}
   					ref={ref => AlertHelper.setDropDown(ref)}
   					onClose={() => AlertHelper.invokeOnClose()}
   				/>
-  			</PaperProvider>
+  			</PaperProvider> */}
   		</Provider>
   	);
   }

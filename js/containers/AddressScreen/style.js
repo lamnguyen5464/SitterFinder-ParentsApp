@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
 		paddingEnd: 20
 	},
 	title: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: Platform.OS === "ios" ? 26 : 22,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
 	},
 	noData: {
 		textAlign: "center",
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 15
 	},
 	contentContainer: {

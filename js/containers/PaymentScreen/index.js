@@ -5,25 +5,15 @@ import {styles} from "./style";
 import ReactNativePickerModule from "react-native-picker-module";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
-// import I18n from "../../shared/utils/locale/i18n";
 import IAText from "../../shared/components/IAText";
 import {images} from "../../../assets";
 import {colors} from "../../shared/utils/colors/colors";
 import IAHeader from "../../shared/components/IAHeader";
 import IALine from "../../shared/components/IALine";
-// import rootStyles from "../../shared/utils/styles/rootStyles";
 import {ScreenWidth} from "../../shared/utils/dimension/Divices";
-import fonts from "../../shared/utils/fonts/fonts";
-// import {AxiosFetch} from "../../api/AxiosFetch";
-// import IALocalStorage from "../../shared/utils/storage/IALocalStorage";
-// import LogManager from "../../shared/utils/logging/LogManager";
-// import IANodata from "../../shared/components/IANodata";
-// import {GiftedChat} from "react-native-gifted-chat";
 import Constant from "../../shared/utils/constant/Constant";
-var moment = require("moment-timezone");
 import LottieView from "lottie-react-native";
 import DropdownAlert from "react-native-dropdownalert";
-// import ModalDropdown from "react-native-modal-dropdown";
 import LinearGradient from "react-native-linear-gradient";
 import {ScreenNames} from "../../route/ScreenNames";
 
@@ -206,7 +196,8 @@ class PaymentScreen extends BaseScreen {
 		return(
 			<View style={styles.mainContainer}>
 				<StatusBar barStyle="dark-content" backgroundColor="transparent" translucent={true}/>
-				<IAHeader viewLeft={this.renderBackButton()}
+				<IAHeader 
+					viewLeft={this.renderBackButton()}
 					viewRight={this._renderNext()}
 					viewCenter={this._renderTitle()}
 					styleLeft={styles.headerLeft}
