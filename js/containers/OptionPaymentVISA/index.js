@@ -12,23 +12,16 @@ import Stripe from "react-native-stripe-api";
 import {CreditCardInput, LiteCreditCardInput} from "react-native-credit-card-input";
 
 import Constant from "../../shared/utils/constant/Constant";
-import {images} from "../../../assets";
 import * as Animatable from "react-native-animatable";
 import {colors} from "../../shared/utils/colors/colors";
 import {KeyboardAwareScrollView} from "react-native-keyboard-aware-scroll-view";
 import AntDesign from "react-native-vector-icons/AntDesign";
-import Entypo from "react-native-vector-icons/Entypo";
-import TouchID from "react-native-touch-id";
 import IAHeader from "../../shared/components/IAHeader";
 import * as device from "../../shared/utils/device/device";
-import IALine from "../../shared/components/IALine";
-import LinearGradient from "react-native-linear-gradient";
-import {ScreenNames} from "../../route/ScreenNames";
 import {TextField} from "react-native-material-textfield";
 import fonts from "../../shared/utils/fonts/fonts";
 import {AxiosFetch} from "../../api/AxiosFetch";
 import {AlertHelper} from "../../shared/utils/AlertHelper";
-import LogManager from "../../shared/utils/logging/LogManager";
 
 const langs = {
 	optionsSignup: I18n.t("optionsSignup.title"),
