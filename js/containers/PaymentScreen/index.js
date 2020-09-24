@@ -89,20 +89,21 @@ class PaymentScreen extends BaseScreen {
 	}
 
 	componentDidMount() {
+		console.log("On start PaymentScreen")
 		this.addTriggerForScreen();
 	}
 
 	componentWillUnmount() {
-		this.focusListener.remove();
+		// this.focusListener.remove();
 	}
 
 	addTriggerForScreen() {
-		this.focusListener = this.props && this.props.navigation.addListener("willFocus", async () => {
-			// this.setState({updating: false,});
-			// this.getMsgs();
-			// let currentUser = await IALocalStorage.getUserInfo();
-			// this.setState({currentUserId: currentUser.id, avatar: currentUser.avatar});
-		});
+		// this.focusListener = this.props && this.props.navigation.addListener("willFocus", async () => {
+		// 	// this.setState({updating: false,});
+		// 	// this.getMsgs();
+		// 	// let currentUser = await IALocalStorage.getUserInfo();
+		// 	// this.setState({currentUserId: currentUser.id, avatar: currentUser.avatar});
+		// });
 	}
 
 	async getMsgs() {
@@ -176,11 +177,11 @@ class PaymentScreen extends BaseScreen {
 								end={{x: 1, y: 0}}
 								locations={Constant.LOCATION_BACKGROUND_BTN}
 								style={{padding: 20, borderRadius: 10, width: ScreenWidth-40, height: ScreenWidth/2.1}}>
-								<Text style={{color: colors.white, fontSize: 22, fontFamily: fonts.family.nunito.bold}}>{item.name}</Text>
-								<Text style={{color: colors.white, fontSize: 18, fontFamily: fonts.family.avenir_book.regular}}>{`${item.prices} ${item.currency}`}</Text>
-								<Text style={{color: colors.white, fontSize: 16, fontFamily: fonts.family.nunito.bold}}>{`Credits: ${item.credits}`}</Text>
-								<Text style={{color: colors.white, fontSize: 16, fontFamily: fonts.family.nunito.bold}}>{`Expiration: ${item.expirationMonth} months`}</Text>
-								<Text style={{color: colors.white, fontSize: 15, fontFamily: fonts.family.avenir_book.regular}}>{`${item.desc}`}</Text>
+								<Text style={{color: colors.white, fontSize: 22, }}>{item.name}</Text>
+								<Text style={{color: colors.white, fontSize: 18, }}>{`${item.prices} ${item.currency}`}</Text>
+								<Text style={{color: colors.white, fontSize: 16, }}>{`Credits: ${item.credits}`}</Text>
+								<Text style={{color: colors.white, fontSize: 16, }}>{`Expiration: ${item.expirationMonth} months`}</Text>
+								<Text style={{color: colors.white, fontSize: 15, }}>{`${item.desc}`}</Text>
 							</LinearGradient>
 							{/* <LottieView resizeMode="center" source={require("../../../assets/imgs/credit_card.json")} style={{alignSelf:"center", width: ScreenWidth/2, height: ScreenWidth/2}} autoPlay loop/> */}
 						</TouchableOpacity>
@@ -243,13 +244,14 @@ class PaymentScreen extends BaseScreen {
 		);
 	}
 }
+export default PaymentScreen;
 // eslint-disable-next-line no-unused-vars
-const mapStateToProps = state => {
-	return {
-	};
-};
-const mapDispatchToProps = dispatch =>
-	bindActionCreators({
-	}, dispatch);
+// const mapStateToProps = state => {
+// 	return {
+// 	};
+// };
+// const mapDispatchToProps = dispatch =>
+// 	bindActionCreators({
+// 	}, dispatch);
 
-export default connect(mapStateToProps, mapDispatchToProps)(PaymentScreen);
+// export default connect(mapStateToProps, mapDispatchToProps)(PaymentScreen);

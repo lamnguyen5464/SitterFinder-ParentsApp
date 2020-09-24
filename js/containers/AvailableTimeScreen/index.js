@@ -170,7 +170,7 @@ class AvailableTimeScreen extends BaseScreen {
 											});
 										}
 									}}>
-										<Text style={{fontSize: 13, fontFamily: fonts.family.nunito.regular}}>{item.code}</Text>
+										<Text style={{fontSize: 13, }}>{item.code}</Text>
 									</TouchableOpacity>
 								);
 							})}
@@ -193,7 +193,7 @@ class AvailableTimeScreen extends BaseScreen {
 											});
 										}
 									}}>
-										<Text style={{fontSize: 13, fontFamily: fonts.family.nunito.regular}}>{item.code}</Text>
+										<Text style={{fontSize: 13, }}>{item.code}</Text>
 									</TouchableOpacity>
 								);
 							})}

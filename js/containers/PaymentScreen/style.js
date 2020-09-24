@@ -13,11 +13,11 @@ export const styles = StyleSheet.create({
 	},
 	noData: {
 		textAlign: "center",
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 15
 	},
 	title: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 22,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -26,7 +26,7 @@ export const styles = StyleSheet.create({
 		color: colors.black,
 	},
 	motto: {
-		fontFamily: fonts.family.avenir_book.regular,
+		// fontFamily: fonts.family.avenir_book.regular,
 		fontSize: 14,
 		fontWeight: "normal",
 		fontStyle: "normal",

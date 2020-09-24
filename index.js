@@ -4,6 +4,6 @@
 
 import {AppRegistry} from 'react-native';
 import {name as appName} from './app.json'; 
-import Tmp from './tmp';
+import PaymentScreen from './js/containers/PaymentScreen';
 
-AppRegistry.registerComponent(appName, () => Tmp);
+AppRegistry.registerComponent(appName, () => PaymentScreen);
