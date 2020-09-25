@@ -195,7 +195,7 @@ class OptionPayment extends BaseScreen {
 							placeholder={""}
 							editable={false}
 							keyboardType='number-pad'
-							value={PACKAGES[this.props.navigation.state.params.package &&this.props.navigation.state.params.package || 0].name.replaceAll("_"," ")}  
+							// value={PACKAGES[this.props.navigation.state.params.package &&this.props.navigation.state.params.package || 0].name.replaceAll("_"," ")}  
 							textColor={"#000"} style={{width: "80%", color: "#000"}}/>
 						<TextField 
 							label={"Bank name"}
@@ -223,7 +223,7 @@ class OptionPayment extends BaseScreen {
 				</ScrollView>
 				<TouchableOpacity style={{marginTop: 30, marginBottom: Platform.OS === "ios" && device.isIphoneX() ?  30 : 0, width: "100%", backgroundColor: colors.green,
 					 justifyContent: "center", height: 54, alignItems: "center"}} onPress={()=>{this._renderRequest()}}>
-					<Text style={{fontFamily: fonts.family.nunito.bold, fontSize: 17, color: colors.white}}>Send</Text>
+					<Text style={{ fontSize: 17, color: colors.white}}>Send</Text>
 				</TouchableOpacity>
 				{this.state.isLoading ? this._renderLoading() : null}
 			</View>

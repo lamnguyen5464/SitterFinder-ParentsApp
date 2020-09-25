@@ -1,0 +1,5 @@
+Error:
+    - ... cannot resolve "Animated.Text.protype.styles" : Go to node_modules/react-native-material-textfield/src, comment line "style: Animated.Text.protype.styles" in 3 index.js files of folders: affix, helper, label
+
+TODO:
+    

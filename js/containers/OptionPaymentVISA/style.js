@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
 		marginStart: 10
 	},
 	title: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 22,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
 		color: colors.black,
 	},
 	request: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 17,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -43,7 +43,7 @@ export const styles = StyleSheet.create({
 		borderBottomLeftRadius: 60
 	},
 	welcomeTitle: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 28,
 		fontWeight: "normal",
 		fontStyle: "normal",
@@ -54,7 +54,7 @@ export const styles = StyleSheet.create({
 		marginLeft: 25
 	},
 	motto: {
-		fontFamily: fonts.family.nunito.bold,
+		// fontFamily: fonts.family.nunito.bold,
 		fontSize: 16,
 		fontWeight: "600",
 		fontStyle: "normal",
@@ -64,7 +64,7 @@ export const styles = StyleSheet.create({
 		marginLeft: 25
 	},
 	next: {
-		fontFamily: fonts.family.nunito.regular,
+		// fontFamily: fonts.family.nunito.regular,
 		fontSize: 16,
 		fontWeight: "normal",
 		fontStyle: "normal",

@@ -235,14 +235,14 @@ class PaymentScreen extends BaseScreen {
 		);
 	}
 }
-export default PaymentScreen;
+// export default PaymentScreen;
 // eslint-disable-next-line no-unused-vars
-// const mapStateToProps = state => {
-// 	return {
-// 	};
-// };
-// const mapDispatchToProps = dispatch =>
-// 	bindActionCreators({
-// 	}, dispatch);
+const mapStateToProps = state => {
+	return {
+	};
+};
+const mapDispatchToProps = dispatch =>
+	bindActionCreators({
+	}, dispatch);
 
-// export default connect(mapStateToProps, mapDispatchToProps)(PaymentScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(PaymentScreen);
