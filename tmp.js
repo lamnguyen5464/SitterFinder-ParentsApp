@@ -27,7 +27,7 @@ export class Screen1 extends BaseScreen{
 	render(){
 		return(
 			<Provider store = {StoreRedux}>
-				<OptionPayment/>
+				<PaymentScreen/>
 
 			</Provider>
 		);

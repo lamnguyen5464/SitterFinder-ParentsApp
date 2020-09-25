@@ -69,6 +69,7 @@ const PACKAGES = [
 class PaymentScreen extends BaseScreen {
 	constructor(props) {
 		super(props);
+		this.pickerRef = React.createRef()
 		this.state={
 			currentIndex: -1,
 		};
@@ -201,7 +202,7 @@ class PaymentScreen extends BaseScreen {
 					viewRight={this._renderNext()}
 					viewCenter={this._renderTitle()}
 					styleLeft={styles.headerLeft}
-					onPressRight={()=>{this.updateStatus.show()}}
+					onPressRight={()=>this.pickerRef.current.show()}
 					onPressLeft={()=>{this.goBack()}}/>
 				<ScrollView
 					contentContainerStyle={{padding: 10}}
@@ -216,7 +217,7 @@ class PaymentScreen extends BaseScreen {
 					{this._renderPackages()}
 					{/* {this.renderMessages()} */}
 					<ReactNativePickerModule
-						pickerRef={e => this.updateStatus = e}
+						pickerRef={this.pickerRef}
 						title={"Payment option"}
 						items={STATUSES}
 						onValueChange={(value, index) => {
