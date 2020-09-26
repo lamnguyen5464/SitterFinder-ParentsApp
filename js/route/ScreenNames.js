@@ -19,7 +19,6 @@ export const ScreenNames = {
 	DescriptionEditScreen: "DescriptionEditScreen",
 	BabySittingRateScreen: "BabySittingRateScreen",
 	YearExpScreen: "YearExpScreen",
-	OptionPaymentVISA: "OptionPaymentVISA",
 	SpecialExpScreen: "SpecialExpScreen",
 	CertificatesScreen: "CertificatesScreen",
 	AvailableTimeScreen: "AvailableTimeScreen",
@@ -35,6 +34,7 @@ export const ScreenNames = {
 	WalletScreen: "WalletScreen",
 	PaymentScreen: "PaymentScreen",
 	OptionPayment: "OptionPayment",
+	OptionPaymentVISA: "OptionPaymentVISA",
 };
 
 export default {

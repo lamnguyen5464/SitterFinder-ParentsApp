@@ -100,6 +100,11 @@ class OptionPayment extends BaseScreen {
 		});
 	}
 
+	componentDidMount() {
+		console.log("On start OptionPayment")
+		// this.addTriggerForScreen();
+	}
+
 	_renderUserType() {
 		var userType = this.state.currentUserType;
 		var isSitter = userType === Constant.USER_TYPE.parent;

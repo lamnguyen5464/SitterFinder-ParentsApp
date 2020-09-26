@@ -221,7 +221,7 @@ class PaymentScreen extends BaseScreen {
 						title={"Payment option"}
 						items={STATUSES}
 						onValueChange={(value, index) => {
-							if (index == 0) {
+							if (value === STATUSES[0]) {
 								this.goToScreen(ScreenNames.OptionPayment, {package: this.state.currentIndex})
 							} else {
 								this.goToScreen(ScreenNames.OptionPaymentVISA, {package: this.state.currentIndex})
