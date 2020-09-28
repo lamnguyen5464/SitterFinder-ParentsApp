@@ -200,7 +200,7 @@ class OptionPayment extends BaseScreen {
 							placeholder={""}
 							editable={false}
 							keyboardType='number-pad'
-							// value={PACKAGES[this.props.navigation.state.params.package &&this.props.navigation.state.params.package || 0].name.replaceAll("_"," ")}  
+							value={PACKAGES[this.props.navigation.state.params.package &&this.props.navigation.state.params.package || 0].name.replaceAll("_"," ")}  
 							textColor={"#000"} style={{width: "80%", color: "#000"}}/>
 						<TextField 
 							label={"Bank name"}
